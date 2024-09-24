@@ -1,15 +1,24 @@
 package HotelManagementSystem;
 
 public class FrontDesk {
-    private HotelService hotelService;
+    //facade
+    private Valet valet;
+    private HouseKeeping houseKeeping;
+    private Cart cart;
 
-    public FrontDesk(HotelService hotelService){
-        this.hotelService = hotelService;
+    public FrontDesk(Valet valet, HouseKeeping houseKeeping, Cart cart) {
+        this.valet = valet;
+        this.houseKeeping= houseKeeping;
+        this.cart = cart;
     }
-    public void drive(){
-        //hotelService.start();
-        hotelService.accelerate();
-        hotelService.brake();
-        hotelService.stop();
+
+    public void onAll(String plateNumber, String roomNumber, int numberOfCarts) {
+        valet.pickUpVehicle(plateNumber);
+        houseKeeping.cleanRoom(roomNumber);
+        cart.requestCart(numberOfCarts);
     }
+
+    
+
+    
 }

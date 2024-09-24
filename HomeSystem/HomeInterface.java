@@ -5,7 +5,6 @@ public class HomeInterface {
     private AirConditioning airConditioning;
     private Light light;
 
-    // Constructor accepting all services
     public HomeInterface(TV tV, AirConditioning airConditioning, Light light) {
         this.tV = tV;
         this.airConditioning = airConditioning;
