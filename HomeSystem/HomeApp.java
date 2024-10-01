@@ -1,7 +1,7 @@
 package HomeSystem;
 
 public class HomeApp {
-    // main
+    // client main
     public static void main(String[] args) {
         
         TV tV = new TV();

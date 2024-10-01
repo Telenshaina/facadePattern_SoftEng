@@ -1,10 +1,13 @@
 package HotelManagementSystem;
-
-public class Cart implements HomeService  {
+//subsystem
+public class Cart implements HotelService  {
     
     public void requestCart(int numberOfCarts) {
-        System.out.println("Requesting number of carts");
+        System.out.println("Requesting number of carts: "+ numberOfCarts);
     }
+
+    
+    
     
 }
 

@@ -1,5 +1,5 @@
 package HomeSystem;
-
+//facade
 public class HomeInterface {
     private TV tV;
     private AirConditioning airConditioning;

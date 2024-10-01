@@ -1,9 +1,9 @@
 package HotelManagementSystem;
-
+//interface
 public interface HotelService {
     //void pickUpVehicle();
     //void cleanRoom();
-    //void requestCar();
-    void run();
+    //void requestCart();
+    //void run();
     
 }

@@ -1,7 +1,7 @@
 package HotelManagementSystem;
-
+//subsystem
 public class HouseKeeping implements HotelService {
     public void cleanRoom(String roomNumber){
-        System.out.println("Picking-up vehicle with platenumber :");
+        System.out.println("Cleaning Room:" + roomNumber);
     }
 }
