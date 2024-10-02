@@ -4,11 +4,11 @@ public class HotelApp {
 
     public static void main(String[] args) {
         
-        Cart cart = new Cart();
-        Valet valet = new Valet();
-        HouseKeeping houseKeeping = new HouseKeeping();
+        Cart cart = new Cart(null);
+        Valet valet = new Valet(null);
+        HouseKeeping houseKeeping = new HouseKeeping(null);
 
-        // Creating the FrontDesk (Facade) object
+      
         FrontDesk facade = new FrontDesk(valet, houseKeeping, cart);
         
         String vehiclePlate = "XYZ1234";
