@@ -1,5 +1,7 @@
 Simplified Hotel Management System
 
+UML : https://lucid.app/lucidchart/639f3df7-f500-442d-a836-749c27a03d82/edit?viewport_loc=-1537%2C-919%2C4745%2C1937%2Cf7de0G0aD-HH&invitationId=inv_3a161741-733f-4f37-ad61-e6040ba0d2b2
+
 The HotelApp needs to manage various hotel services for guest check-in and check-out. These services include valet parking for vehicles, room cleaning, and handling luggage carts. However, the HotelApp aims to interact with these services through a simplified, single interface provided by the FrontDesk. The FrontDesk class should delegate the client's requests to the appropriate service classes (Valet, HouseKeeping, Cart) while abstracting the service details from the client.
 
 Class Definitions:
